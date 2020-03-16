@@ -1,9 +1,11 @@
 const marks = '98';
 switch (true) {
+    //given a constant here(marks)
 case (marks <=100 && marks >= 86):
     console.log('A+');
     console.log('Pass With Distinction');
     break;
+    //range of marks according to the grade
 case (marks <=85 && marks >= 81):
     console.log('A');
     console.log('Pass With Distinction');
@@ -43,4 +45,4 @@ case (marks <=39 && marks >= 0):
 default:
     console.log('fail');
     break;
-}
+} // all the cases are the range of marks according the grades 
