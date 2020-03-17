@@ -46,3 +46,17 @@ default:
     console.log('fail');
     break;
 } // all the cases are the range of marks according the grades 
+if (grade == "A+" || grade == "A" || grade == "A-") {
+    result = ("Pass with Distinction")
+} 
+else if (grade == "B+" || grade == "B" || grade == "B-") {
+    result = ("Pass with Merit")
+}
+else if (grade == "C+" || grade == "A"){
+    result = ("Pass")
+}
+else if (grade == "D"){
+    result = ("fail")
+}
+else if (grade == "D"){
+    result = ("fail")
